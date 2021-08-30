@@ -5,6 +5,7 @@ let theOption = options[0].value;
 document.querySelector("#submitBut").addEventListener("click", (e) => {
   e.preventDefault();
   theValue = document.querySelector("#theInput > #input").value;
+
   makeTheMethod();
 });
 
